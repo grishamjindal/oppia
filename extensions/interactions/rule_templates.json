@@ -155,6 +155,9 @@
     "Equals": {
       "description": "is equal to {{x|Real}}"
     },
+    "IsDoubleOf": {
+      "description": "is double of {{x|Real}}"
+    },    
     "IsLessThan": {
       "description": "is less than {{x|Real}}"
     },

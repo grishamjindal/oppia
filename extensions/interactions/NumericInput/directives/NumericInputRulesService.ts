@@ -21,6 +21,9 @@ angular.module('oppia').factory('NumericInputRulesService', [function() {
     Equals: function(answer, inputs) {
       return answer === inputs.x;
     },
+    IsDoubleOf: function (answer, inputs) {
+      return answer === 2 * inputs.x;
+    },    
     IsLessThan: function(answer, inputs) {
       return answer < inputs.x;
     },
